@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "RockSalt-Regular";
-  src: local("RockSalt-Regular"),
-    url("/fonts/RockSalt-Regular.woff2") format("woff2"),
-    url("/fonts/RockSalt-Regular.woff") format("woff");
+  font-family: 'RockSalt-Regular';
+  src: local('RockSalt-Regular'),
+    url('/fonts/RockSalt-Regular.woff2') format('woff2'),
+    url('/fonts/RockSalt-Regular.woff') format('woff');
 }
 
 * {
@@ -13,7 +13,11 @@ body {
   font-family: RockSalt-Regular;
   background-color: #fc0624;
 }
-h1 {
-  color: #ffffff;
-  text-align: center;
+button {
+  background-color: green;
+  cursor:pointer
+}
+
+#icon {
+  cursor: pointer;
 }
