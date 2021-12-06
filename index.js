@@ -16,12 +16,11 @@ const wordsArray = [
 ];
 
 const words = document.querySelector('h1');
-window.onload= () =>
-generateRandomWord(wordsArray);
- addEventListener('keydown', () => generateRandomWord(wordsArray));
-function (){
-  const word = words[Math.floor(Math.random() * words.length)];
-}
+window.onload = () => generateRandomWord(wordsArray);
+addEventListener('keydown', () => generateRandomWord(wordsArray));
+// function (){
+//   const word = words[Math.floor(Math.random() * words.length)];
+// }
 
 // const words = document.querySelectorAll('h1');
 // words.forEach((word) => {
