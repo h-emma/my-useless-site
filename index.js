@@ -19,19 +19,19 @@ const formattedWords = words.map((item) => {
   return item.toUpperCase();
 });
 
-// const words = document.querySelector('h1');
+document.querySelector('h1').innerHTML = words;
 // document.getElementById('randomXmans').addEventListener('click', function () {
 //   const word = words[Math.floor(Math.random() * words.length)];
 // });
 
-// Function let the user know that the music is palyed och paused with a window alert
+// Function changes color on h1 depending if song is palyed or paused
 const chrismasSong = document.getElementById('chrismasSong');
 chrismasSong.addEventListener('play', function () {
-  alert('The music is playing');
+  document.querySelector('h1').style.color = `#115E0A`;
 });
 
 chrismasSong.addEventListener('pause', function () {
-  alert('The music has been paused');
+  document.querySelector('h1').style.color = `#000000`;
 });
 
 // Function that play and paused song and changed image depending if the song is palyed or paused
