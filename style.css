@@ -10,14 +10,50 @@
 }
 
 body {
-  font-family: RockSalt-Regular;
+  margin: 0;
+  width: 100vw;
+  height: 90vh;
   background-color: #fc0624;
 }
-button {
-  background-color: green;
-  cursor: pointer;
+
+.greetingText {
+  display: flex;
+  justify-content: center;
 }
 
-#icon {
+h1 {
+  font-family: RockSalt-Regular;
+  font-size: 55px;
+}
+
+/* .emoji {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  animation: dancingEmoji 3s infinite;
+}
+@keyframes dancingEmoji {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+} */
+/* button .randomXmans {
+  background-color: green;
+  cursor: pointer;
+} */
+.musicController {
+  display: flex;
+  justify-content: center;
+}
+
+.playAndPause {
+  background-color: #fc0624;
+  border: none;
   cursor: pointer;
 }
