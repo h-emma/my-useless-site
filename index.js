@@ -1,4 +1,4 @@
-const wordsArray = [
+const words = [
   'God Jul',
   'Merry Christmas',
   'Sretan Božić',
@@ -15,21 +15,26 @@ const wordsArray = [
   'счастливого Рождества',
 ];
 
-const words = document.querySelector('h1');
-window.onload = () => generateRandomWord(wordsArray);
-addEventListener('keydown', () => generateRandomWord(wordsArray));
-// function (){
+const formattedWords = words.map((item) => {
+  return item.toUpperCase();
+});
+
+// const words = document.querySelector('h1');
+// document.getElementById('randomXmans').addEventListener('click', function () {
 //   const word = words[Math.floor(Math.random() * words.length)];
-// }
-
-// const words = document.querySelectorAll('h1');
-// words.forEach((word) => {
-//   word.addEventListener('keydown', () => {});
-
 // });
 
-// Function that
+// Function let the user know that the music is palyed och paused with a window alert
 const chrismasSong = document.getElementById('chrismasSong');
+chrismasSong.addEventListener('play', function () {
+  alert('The music is playing');
+});
+
+chrismasSong.addEventListener('pause', function () {
+  alert('The music has been paused');
+});
+
+// Function that play and paused song and changed image depending if the song is palyed or paused
 document.getElementById('icon').addEventListener('click', function () {
   if (chrismasSong.paused) {
     chrismasSong.play();
