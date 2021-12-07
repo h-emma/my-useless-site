@@ -1,0 +1,12 @@
+.musicController {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.playAndPause {
+  background-color: var(--color-background);
+  border: none;
+  cursor: pointer;
+}
