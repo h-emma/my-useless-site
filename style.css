@@ -45,7 +45,7 @@ h1 {
   animation-iteration-count: 1, infinite;
   animation-delay: 0s, 1s;
 }
-@keyframe startposition {
+@keyframes startposition {
   0% {
     transform: rotate(0deg);
   }
@@ -53,7 +53,7 @@ h1 {
     transform: rotate(50deg);
   }
 }
-@keyframe dancingEmoji {
+@keyframes dancingEmoji {
   0% {
     transform: rotate(50deg);
   }
