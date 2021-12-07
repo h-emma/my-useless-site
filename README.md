@@ -9,7 +9,9 @@ To visit the site click [here](https://christmas-dance.netlify.app/).
 # Installation
 
 To install this project follow this list
-- Clone the project
+
+-   Clone the project
+
 ```
 git clone https://github.com/h-emma/my-useless-site
 ```
