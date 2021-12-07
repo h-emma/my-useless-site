@@ -1,0 +1,23 @@
+:root {
+  /*Font size*/
+  --h1: 2.5rem;
+
+  /*Colors*/
+  --color-background: #fc0624;
+  --color-text: #050505;
+
+  /*Fonts*/
+  --font-main: RockSalt-Regular;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 90vh;
+  background-color: var(--color-background);
+  position: relative;
+}
