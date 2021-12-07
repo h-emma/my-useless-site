@@ -1,0 +1,25 @@
+.dance {
+  animation-name: startposition, dancingEmoji;
+  animation-duration: 1s, 4s;
+  animation-iteration-count: 1, infinite;
+  animation-delay: 0s, 1s;
+}
+@keyframes startposition {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(50deg);
+  }
+}
+@keyframes dancingEmoji {
+  0% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(-50deg);
+  }
+  100% {
+    transform: rotate(50deg);
+  }
+}
