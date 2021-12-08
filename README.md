@@ -28,5 +28,5 @@ git clone https://github.com/h-emma/my-useless-site
 
 Tested by the following people:
 
-1. Jane Doe
+1. Albin Andersson
 2. John Doe
