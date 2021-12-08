@@ -1,6 +1,7 @@
 :root {
   /*Font size*/
-  --h1: 2.5rem;
+  --h1-desktop: 2.5rem;
+  --h1-mobil: 1.3rem;
 
   /*Colors*/
   --color-background: #fc0624;
