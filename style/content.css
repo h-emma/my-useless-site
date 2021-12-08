@@ -8,7 +8,7 @@
 
 h1 {
   font-family: var(--font-main);
-  font-size: var(--h1);
+  font-size: var(--h1-mobil);
   color: var(--color-text);
 
   /* Make text not selectable. */
