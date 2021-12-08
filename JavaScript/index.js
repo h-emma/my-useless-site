@@ -11,6 +11,4 @@ const words = [
   'Frohe Weihnachten',
   'Veselé Vánoce',
   'Feliz Navidad',
-  'срећан Божић',
-  'счастливого Рождества',
 ];
