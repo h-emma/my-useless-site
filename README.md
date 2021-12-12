@@ -15,6 +15,9 @@ To install this project follow this list
 ```
 git clone https://github.com/h-emma/my-useless-site
 ```
+- Open your code editor
+
+- Go to the file index.html and open it with live server or live preview
 
 # Code Review
 
